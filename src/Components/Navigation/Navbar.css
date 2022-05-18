@@ -1,0 +1,288 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar_logo {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+.navbar_logo .lash {
+  color: var(--navcolor);
+}
+.navbar_logo .flash {
+  color: var(--barcolor);
+  margin-left: 5px;
+}
+.center_navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  color: var(--centercolor);
+}
+.center_navbar #home {
+  color: var(--navcolor);
+  cursor: pointer;
+}
+.center_navbar #home:hover {
+  color: var(--centercolor);
+  cursor: pointer;
+}
+.center_navbar #packages:hover {
+  color: var(--navcolor);
+  cursor: pointer;
+}
+.center_navbar #services:hover {
+  color: var(--navcolor);
+  cursor: pointer;
+}
+.center_navbar #portfolio:hover {
+  color: var(--navcolor);
+  cursor: pointer;
+}
+.center_navbar #about:hover {
+  color: var(--navcolor);
+  cursor: pointer;
+}
+.right_navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+.right_navbar .log_in {
+  margin-right: 40px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.right_navbar .log_in #log {
+  color: var(--navcolor);
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid var(--navcolor);
+  background-color: var(--wigcolor);
+  font-weight: bolder;
+}
+.right_navbar .sign_in #sign {
+  background-color: var(--barcolor);
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  color: var(--navcolor);
+  outline: none;
+  font-weight: bolder;
+}
+.right_navbar .log_in #log:hover {
+  background-color: var(--barcolor);
+  cursor: pointer;
+  border: 1px solid var(--barcolor);
+}
+
+.right_navbar .sign_in #sign:hover {
+  color: var(--wigcolor);
+  background-color: var(--navcolor);
+  cursor: pointer;
+}
+.section_one {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.right_side {
+  width: 50%;
+  background-color: var(--navcolor);
+  height: 90vh;
+}
+.right_side h1 {
+  font-size: 110px;
+  padding: 0px 50px;
+  color: var(--wigcolor);
+  margin-top: 70px;
+}
+.right_side h1 #style {
+  color: var(--barcolor);
+}
+.right_side p {
+  font-size: 20px;
+  color: var(--wigcolor);
+  padding: 20px 50px;
+}
+.right_side .btn {
+  padding: 20px 50px;
+}
+.right_side .btn #pick {
+  padding: 10px 40px;
+  margin-right: 30px;
+  border-radius: 20px;
+  background-color: var(--barcolor);
+  color: var(--navcolor);
+  border: 1px solid var(--barcolor);
+  outline: none;
+}
+.right_side .btn #pick:hover {
+  cursor: pointer;
+  background-color: var(--navcolor);
+  color: var(--wigcolor);
+  border: 1px solid var(--wigcolor);
+}
+.right_side .btn #rent {
+  padding: 10px 40px;
+  border-radius: 20px;
+  background-color: var(--navcolor);
+  color: var(--wigcolor);
+  border: 1px solid var(--wigcolor);
+  outline: none;
+}
+.right_side .btn #rent:hover {
+  cursor: pointer;
+  background-color: var(--barcolor);
+  color: var(--navcolor);
+  border: none;
+}
+.left_side {
+  width: 50%;
+}
+.left_side img {
+  width: 100%;
+  height: 90vh;
+  margin-top: 5px;
+}
+.section_two {
+  padding: 50px;
+}
+.section_two .heading {
+  margin-top: 20px;
+  padding: 30px;
+}
+.section_two .heading h1 {
+  font-size: 50px;
+  text-align: center;
+  color: var(--navcolor);
+}
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 10px 50px;
+  margin-bottom: 20px;
+}
+.one img {
+  margin-left: 160px;
+  margin-top: -100px;
+  position: static;
+}
+.one h2 {
+  margin-top: 30px;
+  text-align: center;
+}
+.one p {
+  margin-top: 20px;
+  text-align: center;
+}
+.one h3 {
+  margin-top: 20px;
+  text-align: center;
+}
+.one button {
+  padding: 10px 30px;
+  border: 1px solid var(--navcolor);
+  color: var(--navcolor);
+  margin-left: 150px;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.side_one {
+  background-color: rgb(255, 252, 241);
+  width: 30%;
+  border-radius: 5px;
+  padding: 50px 0px;
+}
+.side_two {
+  width: 30%;
+  background-color: var(--navcolor);
+  border-radius: 5px;
+  padding: 50px 0px;
+}
+.side_three {
+  width: 30%;
+  background-color: var(--wigcolor);
+  border-radius: 5px;
+  padding: 50px 0px;
+}
+.section_two .side_one img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.section_two .side_one h2 {
+  font-size: 15px;
+  color: var(--navcolor);
+}
+.section_two .side_one p {
+  color: var(--navcolor);
+}
+.section_two .side_one h3 {
+  color: var(--navcolor);
+}
+.section_two .side_two img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.section_two .side_two h2 {
+  font-size: 15px;
+  color: var(--wigcolor);
+}
+.section_two .side_two p {
+  color: var(--wigcolor);
+}
+.section_two .side_two h3 {
+  color: var(--wigcolor);
+}
+.section_two .side_three img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.section_two .side_three h2 {
+  font-size: 15px;
+  color: var(--navcolor);
+}
+.section_two .side_three p {
+  color: var(--navcolor);
+}
+.section_two .side_three h3 {
+  color: var(--navcolor);
+}
+.section_two .side_one #btn_one {
+  border: 1px solid var(--navcolor);
+  background-color: var(--wigcolor);
+}
+.section_two .side_two #btn_two {
+  background-color: var(--barcolor);
+  border: var(--navcolor);
+}
+.section_two .side_three #btn_three {
+  border: 1px solid var(--navcolor);
+  background-color: var(--wigcolor);
+}
+.section_two .side_one #btn_one:hover {
+  cursor: pointer;
+  background-color: var(--navcolor);
+  color: var(--wigcolor);
+}
+.section_two .side_two #btn_two:hover {
+  cursor: pointer;
+  background-color: var(--wigcolor);
+  color: var(--navcolor);
+}
+.section_two .side_three #btn_three:hover {
+  cursor: pointer;
+  background-color: var(--navcolor);
+  color: var(--wigcolor);
+}
